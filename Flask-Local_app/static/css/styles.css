@@ -1,0 +1,23 @@
+ol {
+color:darkblue;
+background-color:#F0E68C;
+
+}
+
+li {
+color:red;
+background-color:rgb(135,206,250);
+margin-left:50px;
+margin-top:20px;
+margin-bottom:30px;
+}
+
+.Models {
+text-align:center;
+font-size:30px;
+}
+
+body {
+background-image:url(../img/background.jpg);
+color:white;
+}
