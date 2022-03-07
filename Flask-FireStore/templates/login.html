@@ -1,0 +1,44 @@
+<! DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="static/css/styles.css">
+        <title> PSAS - Settings </title>
+    </head>
+
+    <body style="background-color:#e3ebb2">
+      <center> <h2 style="color:darkcyan;font-size:60px"> Please set your settings </h2> </center>
+      <center> <img src="{{ setting1 }}" alt="Image sample"  title="SETTING" width="35%" height="auto"> </center>
+      <center> <h1 style="color:blue;font-size:100px"> PSAS </h1> </center>
+      <center> <h3 style="color:darkblue;font-size:80px"> Welcome back ! </h3> </center>
+
+      <form action = '/setting' method="POST">
+
+          <p>
+          <center> <input style="color:black;font-size:60px" placeholder="Name" name="name" type="text"> </center>
+          </p>
+          <p>
+          <center> <input style="color:black;font-size:60px" placeholder="Email" name="email" type="text"> </center>
+          </p>
+          <p>
+          <center> <input style="color:black;font-size:60px" placeholder="Wi-Fi key" name="key" type="text"> </center>
+          </p>
+          <p>
+          <center> <input style="color:black;font-size:60px" placeholder="Password" name="password" type="password"> </center>
+          </p>
+          <p>
+          <center> <input style="color:black;font-size:60px" placeholder="OLD Authentication Code" name="oldauthcode" type="password"> </center>
+          </p>
+          <p>
+          <center> <input style="color:darkblue;font-size:60px" placeholder="NEW Authentication Code" name="newauthcode" type="password"> </center>
+          </p>
+          
+          <p>
+          <center> <input style="color:darkblue;font-size:120px" type="submit"> </center>
+          </p>
+
+      </form>
+
+    
+    </body>
+</html>
